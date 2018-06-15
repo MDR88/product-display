@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-self: center;
+}
+
+#nav-bar a {
+    margin-right: 0;
+    padding: 12px;
+    border: 1.5px solid blue;
+    background-color: dodgerblue;
+    color: white;
+    transition: .7s;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#nav-bar a:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#nav-container h1 {
+    font-size: 6em;
+    align-self: center;
+    color: darksalmon;
+}
+
